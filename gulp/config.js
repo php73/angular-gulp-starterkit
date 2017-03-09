@@ -11,7 +11,7 @@ module.exports = {
     assets: [
         {name: 'favicon', from: './src/favicon.ico', to: ''},
         {name: 'systemjs', from: './src/systemjs.config.js', to: ''},
-        {name: 'assets', from: './src/assets/**/*', to: 'assets'}
+        {name: 'img', from: './src/assets/img/**/*', to: 'assets/img'}
     ],
     libraries: [
         './node_modules/zone.js/dist/zone.min.js',
