@@ -15,7 +15,8 @@
             enable: livereload
         },
         directoryListing: false,
-        open: livereload
+        open: livereload,
+        fallback: 'index.html'
     };
 
     gulp.task('webserver', gulp.parallel('watch', function () {
