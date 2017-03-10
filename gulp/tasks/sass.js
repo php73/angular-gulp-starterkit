@@ -11,7 +11,7 @@
         return function () {
             var css;
 
-            css = gulp.src(CONFIG.sassFolder+'/**.scss');
+            css = gulp.src([CONFIG.sassFolder+'/**.scss', CONFIG.sassFolder+'/**.sass']);
 
             if (dev) {
                 css = css.pipe(sourcemaps.init())
