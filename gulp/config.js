@@ -1,4 +1,5 @@
 module.exports = {
+    tsConfigPath: './src/tsconfig.json',
     systemjsConfigPath: './src/systemjs.config.js',
     indexHtmlTemplate: './src/index.twig',
     typescriptFolder: './src/app',

@@ -9,7 +9,7 @@
 
     function typescriptTask(dev) {
         return function () {
-            var tsProject = tsc.createProject("./src/tsconfig.json", { typescript: typescript});
+            var tsProject = tsc.createProject(CONFIG.tsConfigPath, { typescript: typescript});
 
             var src = tsProject.src();
             if (dev) {
